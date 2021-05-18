@@ -1,0 +1,146 @@
+body {
+  text-decoration-color:lightgoldenrodyellow;
+  background-color: #ffffe6;
+
+}
+
+h1 {
+  background-image: url(SchoolOfAthens.jpg);
+  margin: 0;
+  height: 200px;
+  background-size: 100% 100%; 
+}
+
+.titlenav {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-family: 'Didot', 'serif';
+  box-shadow: 5px 5px 20px;
+  border-style: outset;
+  border-color: lightsalmon;
+  
+  
+}
+.web-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+}
+
+/* Items within the body of the page */
+.web-grid-item {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    background-color:lightblue;
+    border-style:outset;
+    border-color:lightsalmon;
+    font-family: 'Didot', 'serif';
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.philosopher {
+  
+  flex-direction: column;
+  flex-flow: column;
+  background-color:lightblue;
+  border-style:outset;
+  border-color:lightsalmon;
+  font-family: 'Didot', 'serif';
+  background-size: 100% 100%;
+  margin: 1em;
+  margin-left: 0.0em;
+}
+
+.philosopher img {
+  margin: auto;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  display: block;
+  border-radius: 50%;
+  border-style:outset;
+  border-color:lightsalmon;
+}
+
+.cite {
+  margin: auto;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  display: block;
+  text-decoration: underline;
+  text-decoration: double;
+}
+
+/* Child of the web-grid-nav */
+ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 25px
+}
+
+nav { 
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+.title {
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Didot', 'serif';
+  box-shadow: 5px 5px 20px;
+  border-style:groove;
+  border-color: lightsalmon;
+  padding: 2px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.Sub-title {
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Didot', 'serif';
+  box-shadow: 5px 5px 20px;
+  border-style:double;
+  border-color: lightsalmon;
+  padding: 2px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+label {
+  font-size: 25px;
+  margin: 1em;
+}
+
+button {
+  padding: 0.2em;
+}
+
+caption {
+  margin: 1em;
+  text-decoration-style: double;
+  font-size: 120%;
+}
